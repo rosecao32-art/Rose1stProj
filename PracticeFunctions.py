@@ -15,6 +15,10 @@ print(text.strip())
 print(text.upper())
 print(text.replace("python","Python"))
 
+tasks = ["Write code", "Test program", "Deploy app"]
+for index, task in enumerate(tasks, 1):
+    print(f"{index}. {task}")
+
 numbers = [1, 2, 3, 4, 5]
 squares = [n * n for n in numbers]
 print(squares)
