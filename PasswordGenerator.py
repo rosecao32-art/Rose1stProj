@@ -37,7 +37,7 @@ def generate_random_string(length, characters=None):
     
     # Generate random string
     # return ''.join(random.choice(characters) for _ in range(length))
-    return ''.join(random.choices(characters, k=length))
+    return''.join(random.choices(characters, k=length))
 
 # Example usage:
 if __name__ == "__main__":
