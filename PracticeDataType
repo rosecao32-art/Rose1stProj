@@ -1,3 +1,5 @@
+import math, datetime
+
 def main():
     name = "Alice"
     age = 25
@@ -5,6 +7,17 @@ def main():
     is_student = True
     name = input("Enter your name: ")
     print ("Hello", name)
+
+    name = "Alice"
+    score = 95
+    print(f"Student {name} scored {score} marks.")
+
+    x, y = 5, 3
+    print(f"Sum: {x + y}, Product: {x * y}")
+
+    print(f"Pi rounded to 3 decimals: {math.pi: .3f}")
+    today = datetime.date.today()
+    print(f"Today is {today:%B %d, %Y}")
     
     fruits = ["apple", "banana", "cherry"]
     print(fruits[0])
