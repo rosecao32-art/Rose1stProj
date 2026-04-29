@@ -6,6 +6,10 @@ def greet(name):
 message = greet("Alice")
 print(message)
 
+def add(a, b=0):
+    return a + b
+print(add(5,9))
+
 text = "    python is fun   "
 print(text.strip())
 print(text.upper())
