@@ -1,6 +1,13 @@
 for number in range(1,6): 
     print(number)
 
+x, y = input("Enter two numbers: ").split()
+print(x,y)    
+
+i = int(input("How old are you?: "))
+f = float(input("Evaluate 7/2: "))
+print(i, f)
+
 def greet(name):
     return "Hello " + name
 message = greet("Alice")
