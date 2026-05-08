@@ -1,4 +1,5 @@
 import math, datetime
+import keyword
 
 def main():
     name = "Alice"
@@ -64,5 +65,50 @@ def main():
     age = 16
     status = "Adult" if age >= 18 else "Minor"
     print(status)
+
+    print("The list of keywords are: ")
+    print(keyword.kwlist)
+    num = 10
+    print(num)
+
+    a = 15
+    b = 4
+    print("Additon:", a + b)
+    print("Subtraction:", a - b)
+    print("Multiplication:", a * b)
+    print("Division:", a / b)
+    print("Floor Division:", a // b)
+    print("Modulus:", a % b)
+    print("Exponentiation:", a ** b)
+
+    res = 10 / 3
+    print(res)
+    print(type(res))
+    res = 10 // 3
+    print(res)
+    print(type(res))
+    print(-17 / 5)
+    print(-17 // 5)
+
+    a = 13
+    b = 33
+    print(a > b)
+    print(a < b)
+    print(a == b)
+    print(a != b)
+    print(a >= b)
+    print(a <= b)
+
+    a, b, c = True, False, True
+    # AND: Both conditions must be True
+    if a and c:
+        print("Both a and c are True (AND condition).")
+    # OR: At least one condition must be True
+    if b or c:
+        print("Either b or c is True (OR condition).")
+    # NOT: Reverses the condition
+    if not b:
+        print("b is False (NOT condtion).")
+            
 
 main()
