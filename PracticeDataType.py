@@ -70,6 +70,7 @@ def main():
     print(keyword.kwlist)
     num = 10
     print(num)
+    print(keyword.iskeyword('rose'))
 
     a = 15
     b = 4
