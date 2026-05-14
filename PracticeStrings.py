@@ -149,6 +149,16 @@ s = "   Gfg   "
 print(s.strip())    
 s = "Python is fun"
 print(s.replace("fun", "awesome"))
+print("Only the first occurrence of a substring is replaced using the count parameter:---")
+s = "apple apple apple"
+res = s.replace("apple", "orange", 1)
+print(res)
+print("Replace() treats uppercase and lowercase characters as different, replacing only exact matches:---")
+s = "Hello World! hello world!"
+res1 = s.replace("Hello", "Hi")
+res2 = s.replace("hello", "hi")
+print(res1)
+print(res2)
 
 print("Concatenating and Repeating Strings:-------")
 print("Join two words with a space:---")
