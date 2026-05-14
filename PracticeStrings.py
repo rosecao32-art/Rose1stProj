@@ -131,6 +131,10 @@ s1 = "H" + s[1:]
 s2 = s.replace("geeks", "GeeksforGeeks")  
 print(s1)
 print(s2)
+print("Updated new string:-------")
+s = "Python is fun. Python is powerful."
+res = s.replace("Python", "Coding")
+print(res)
 
 print("Common String Methods:-------")
 print("len:---")
