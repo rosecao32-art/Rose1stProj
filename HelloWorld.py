@@ -14,3 +14,7 @@ print(p1.lower() == p2.lower())
 txt = "Machine Learning with PYTHON"
 keyword = "python"
 print(keyword.lower() in txt.lower())
+
+import sys
+for p in sys.path:
+    print(p)
