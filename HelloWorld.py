@@ -1,6 +1,5 @@
 def main():
     print("Hello World!!! It is great.")
-
 main()
 
 text = "HELLO Word 123!"
@@ -18,3 +17,11 @@ print(keyword.lower() in txt.lower())
 import sys
 for p in sys.path:
     print(p)
+
+number = 7
+for i in range(1, 11):
+    if i == number:
+        print("Found your number:", i)
+        break
+    else:
+        print("Checking", i)    
