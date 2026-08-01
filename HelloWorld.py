@@ -25,3 +25,18 @@ for i in range(1, 11):
         break
     else:
         print("Checking", i)    
+
+programming_languages = ['Rust', 'Java', 'Python', 'C++']
+
+for language in programming_languages:
+    print(language)
+
+for char in "code":
+    print(char)
+
+categories = ['Fruit', 'Vegetable']
+foods = ['Apple', 'Carrot', 'Banana']
+for category in categories:
+    for food in foods:
+        print(category, food)
+
