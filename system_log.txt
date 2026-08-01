@@ -1,0 +1,5 @@
+[INFO] System boot complete
+[WARNING] Low memory detected
+[ERROR] Disk read failure
+[INFO] User login successful
+[ERROR] Network timeout
