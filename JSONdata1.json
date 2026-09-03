@@ -1,0 +1,37 @@
+[
+    {
+        "Name": "Alice",
+        "Age": "30",
+        "Height": "160",
+        "Weight": "105",
+        "Hair Color": "Dark Brown"
+    },
+    {
+        "Name": "Billy",
+        "Age": "31",
+        "Height": "180",
+        "Weight": "170",
+        "Hair Color": "Black"
+    },
+    {
+        "Name": "Cathy",
+        "Age": "9",
+        "Height": "",
+        "Weight": "",
+        "Hair Color": ""
+    },
+    {
+        "Name": "Dany",
+        "Age": "7",
+        "Height": "",
+        "Weight": "",
+        "Hair Color": ""
+    },
+    {
+        "Name": "Ellen",
+        "Age": "5",
+        "Height": "",
+        "Weight": "",
+        "Hair Color": ""
+    }
+]
