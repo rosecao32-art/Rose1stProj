@@ -1,0 +1,14 @@
+{
+    "experiment": {
+        "trials": [
+            {
+                "trial_id": "T1",
+                "measurements": [3.2, 4.1, 5.0]
+            },
+            {
+                "trial_id": "T2",
+                "measurements": [6.5, 7.1, 6.8]
+            }
+        ]
+    }
+}
