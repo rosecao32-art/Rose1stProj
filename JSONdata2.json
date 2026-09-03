@@ -1,0 +1,27 @@
+[
+    {
+        "temperature": 30,
+        "pH": 3,
+        "Name": "Exp1"
+    },
+    {
+        "temperature": 41,
+        "pH": 5,
+        "Name": "Exp2"
+    },
+    {
+        "temperature": 52,
+        "pH": 7,
+        "Name": "Exp3"
+    },
+    {
+        "temperature": 26,
+        "pH": 9,
+        "Name": "Exp4"
+    },
+    {
+        "temperature": 67,
+        "pH": 8,
+        "Name": "Exp5"
+    }
+]
