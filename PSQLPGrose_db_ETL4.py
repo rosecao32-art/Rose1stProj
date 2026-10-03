@@ -9,7 +9,7 @@ engine = create_engine(
 # -----------------------------
 # EXTRACT
 # -----------------------------
-df = pd.read_csv("CSVraw_sales.csv")
+df = pd.read_csv("~/Documents/RoseGitHub/Project1/CSVraw_sales.csv")
 
 # -----------------------------
 # TRANSFORM
